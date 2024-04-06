@@ -1,14 +1,14 @@
-import { Routes, Route } from 'react-router-dom'; 
-import Home from './components/Home';
+import './index.css'
+import Sidebar from './components/Sidebar'
+import MainContent from './components/MainContent'
 
 function App() {
-  return (
+  return (   
     <>
-      <Routes>
-        <Route path="/" element={ <Home />} />
-      </Routes>
+      <Sidebar />   
+      <MainContent />       
     </>
   )
 }
 
-export default App
+export default App;
